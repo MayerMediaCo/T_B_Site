@@ -7,7 +7,7 @@ description: >-
   adipisci velit...
 offerings:
   blurbs:
-    - image: /img/pexels-photo-905874.jpeg
+    - image: /img/coffee-gear.png
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
         sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
@@ -58,12 +58,12 @@ offerings:
         massa quis euismod convallis, felis elit sodales urna, at aliquet mi
         elit auctor  risus.
 testimonials:
-  - author: Vaibhav Sharma
+  - author: Jane Doe
     quote: >-
       Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed
       diam luctus pretium.  Sed quis egestas libero. Vestibulum nec venenatis
       ligula. 
-  - author: Subarashi San
+  - author: John Doe
     quote: >-
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
