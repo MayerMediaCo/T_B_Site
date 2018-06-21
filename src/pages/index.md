@@ -7,7 +7,7 @@ description: >-
   adipisci velit...
 offerings:
   blurbs:
-    - image: /img/coffee-gear.png
+    - image: /img/pexels-photo-905874.jpeg
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
         sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
@@ -19,7 +19,7 @@ offerings:
         non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
         ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
         interdum, varius nibh eu, efficitur metus.
-    - image: /img/coffee-gear.png
+    - image: /img/pexels-photo-905874.jpeg
       text: >
         Fusce semper turpis sed tortor consectetur condimentum. Nulla facilisi.
         Nam  ipsum nulla, dapibus eu mi non, commodo commodo sapien.
@@ -32,7 +32,7 @@ offerings:
         interdum, turpis nunc aliquet sem, ac iaculis ligula mauris id tortor. 
         Sed eget ornare orci, quis dignissim nulla. Pellentesque aliquam
         consectetur congue.
-    - image: /img/tutorials.png
+    - image: /img/pexels-photo-905874.jpeg
       text: >
         Sed in consequat leo, sit amet ullamcorper lacus. Duis lacinia, metus
         vitae sollicitudin  pharetra, ipsum augue tristique urna, in rhoncus
@@ -45,7 +45,7 @@ offerings:
         sollicitudin eget, porta vehicula odio. Sed mollis, metus sit amet
         porttitor vehicula,  quam augue pretium erat, at commodo nisl tellus non
         risus.
-    - image: /img/meeting-space.png
+    - image: /img/pexels-photo-905874.jpeg
       text: >
         Vestibulum libero lectus, dignissim eget magna sit amet, malesuada
         tincidunt mi. Vivamus  sed erat iaculis mauris efficitur vehicula.
