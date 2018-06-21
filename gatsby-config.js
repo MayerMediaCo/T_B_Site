@@ -19,7 +19,12 @@ module.exports = {
     }
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-react-helmet', {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`]
+      }
+    },
     'gatsby-plugin-sass', {
       resolve: 'gatsby-source-filesystem',
       options: {
