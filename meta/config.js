@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: 'Theresa Buckley', // Site title.
   siteTitleAlt: '', // Alternative site title for SEO.
   siteLogo: '', // Logo used for SEO and manifest.
-  siteUrl: '', // Domain of your website without pathPrefix.
+  siteUrl: 'https://zen-bose-20b2bd.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: '', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
