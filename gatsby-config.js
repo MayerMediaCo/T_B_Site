@@ -133,39 +133,34 @@ module.exports = {
                 }))
             },
             query: `
-                    {
-                      allMarkdownRemark(
-                        limit: 1000,
-                        sort: { order: DESC, fields: [frontmatter___date] },
-                      ) {
-                        edges {
-                          node {
-                            excerpt(pruneLength: 400)
-                            html
-                            id
-                            fields { slug }
-                            frontmatter {
-                              title
-                              templateKey
-                              cover
-                              date(formatString: "MMMM DD, YYYY")
-                              tags
+                            {
+                              allMarkdownRemark(
+                                limit: 1000,
+                                sort: { order: DESC, fields: [frontmatter___date] },
+                              ) {
+                                edges {
+                                  node {
+                                    excerpt(pruneLength: 400)
+                                    html
+                                    id
+                                    fields { slug }
+                                    frontmatter {
+                                      title
+                                      templateKey
+                                      cover
+                                      date(formatString: "MMMM DD, YYYY")
+                                      tags
+                                    }
+                                  }
+                                }
+                              }
                             }
-                          }
-                        }
-                      }
-                    }
-                  `,
+                          `,
             output: config.siteRss
           }
         ]
       }
     },
-    'gatsby-plugin-netlify', {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-responsive-iframe`]
-      }
-    }
+    'gatsby-plugin-netlify'
   ]
-};
+}
