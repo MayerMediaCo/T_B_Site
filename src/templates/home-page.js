@@ -18,16 +18,24 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description}/>
     </Helmet>
-    <section className='hero is-primary is-bold'>
+    <section className='hero is-primary is-bold homeHero'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
-            <div className='column is-10 is-offset-1'>
+            <div className='column is-6'>
               <div className='section'>
                 <h1 className='title'>
                   {title}
                 </h1>
+                <h2 className="subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, explicabo?
+                </h2>
+                <a href="/contact" className="button is-light is-large">Contact Me</a>
               </div>
+            </div>
+            <div className='column is-6'>
+              <div className='section'>
+                <img src="https://source.unsplash.com/random/12000x600" alt=""/></div>
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ const NavBar = () => {
             <div className='field is-grouped'>
               <p className='control'>
                 <Link className='button is-primary is-outlined' to='/contact'>
-                  Contact Us
+                  Contact Me
                 </Link>
               </p>
             </div>
