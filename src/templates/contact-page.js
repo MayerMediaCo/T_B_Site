@@ -36,9 +36,7 @@ export const ContactPageTemplate = ({
       </section>
       <section className='section'>
         <div className='container'>
-          {contacts.map((contact, id) =>
-            <Contact key={id} email={contact.email} description={contact.description} />
-          )}
+            <Contact />
         </div>
       </section>
     </div>
