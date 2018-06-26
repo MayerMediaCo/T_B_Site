@@ -1,8 +1,8 @@
 ---
 templateKey: 'contact-page'
 title: Contact Me
-subtitle: We'd Love To Help You, Feel Free To Drop A Mail
-meta_title: Contact Us | Gatsby Starter Business
+subtitle: Get in touch with me to learn more information
+meta_title: Contact Me | Theresa Buckley
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
