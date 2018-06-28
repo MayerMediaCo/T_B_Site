@@ -3,18 +3,12 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Contact from '../components/Contact'
 
-export const ContactPageTemplate = ({
-  title,
-  subtitle,
-  meta_title,
-  meta_description,
-  contacts,
-}) => {
+export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description, contacts}) => {
   return (
     <div>
       <Helmet>
         <title>{meta_title}</title>
-        <meta name='description' content={meta_description} />
+        <meta name='description' content={meta_description}/>
       </Helmet>
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>
@@ -36,7 +30,7 @@ export const ContactPageTemplate = ({
       </section>
       <section className='section'>
         <div className='container'>
-            <Contact />
+          <Contact/>
         </div>
       </section>
     </div>
@@ -48,34 +42,28 @@ ContactPageTemplate.propTypes = {
   subtitle: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
-  contacts: PropTypes.array,
-
+  contacts: PropTypes.array
 }
 
 const ContactPage = ({data}) => {
   const {frontmatter} = data.markdownRemark
-  return (
-    <ContactPageTemplate
-      title={frontmatter.title}
-      subtitle={frontmatter.subtitle}
-      meta_title={frontmatter.meta_title}
-      meta_description={frontmatter.meta_description}
-      contacts={frontmatter.contacts}
-    />
-  )
+  return (<ContactPageTemplate
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+    meta_title={frontmatter.meta_title}
+    meta_description={frontmatter.meta_description}
+    contacts={frontmatter.contacts}/>)
 }
 
 ContactPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
+    markdownRemark: PropTypes.shape({frontmatter: PropTypes.object})
+  })
 }
 
 export default ContactPage
 
-export const contactPageQuery = graphql`
+export const contactPageQuery = graphql `
   query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
