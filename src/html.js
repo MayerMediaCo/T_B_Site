@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import favicon from './img/favicon.ico'
+import favicon from './img/favicon.png'
 
 let inlinedStyles = ''
 if (process.env.NODE_ENV === 'production') {

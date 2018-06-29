@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Contact from '../components/Contact'
 
-export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description, contacts}) => {
+export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description}) => {
   return (
     <div>
       <Helmet>
@@ -28,11 +28,26 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
           </div>
         </div>
       </section>
+
       <section className='section'>
         <div className='container'>
-          <Contact/>
+          <div className='columns'>
+            <div className='column is-6'>
+              <div className='contact-form'>
+                <Contact/>
+              </div>
+            </div>
+            <div className='column is-6'>
+              <div>
+                <h1>
+                  Google Map
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
     </div>
   )
 }

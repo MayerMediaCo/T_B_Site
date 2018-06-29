@@ -2,10 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div>
       <form
         name="contact"
         method="post"
+        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field">
 
