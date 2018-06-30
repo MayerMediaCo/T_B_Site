@@ -1,23 +1,32 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url(https://fonts.googleapis.com/css?family=Alex+Brush);
 
-$primary: #333333
+$primary: #303030
 $primary-invert: #f3f3f3
 $footer-background-color: #333333
+$curly-font: Alex Brush
 
 nav
-  border-bottom: lightgray solid 0.5vmin
-  background: #333333 
+  border-bottom: #616161 solid 0.3vmin
+  background: #303030 
+
+.navbar-brand
+  font-family: $curly-font
+  font-size: 24px
 
 body
   background: #f3f3f3
 
 .contact-form
-  border: lightgray solid 0.2vmin
+  border: #616161 solid 0.2vmin
   padding: 25px
 
-.homeHero
+.hero
   padding: auto
   margin: auto
+  background-image: url(../img/ep_naturalblack.png) no-repeat center fixed
+  background-size: cover
+  transparency: 50%
 
 .footer
   color: #f3f3f3

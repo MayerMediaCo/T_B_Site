@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
 
+import Person from '../img/person.jpg'
+
 export const HomePageTemplate = ({
   title,
   heading,
@@ -35,7 +37,7 @@ export const HomePageTemplate = ({
             </div>
             <div className='column is-6'>
               <div className='section'>
-                <img src="https://source.unsplash.com/random/12000x600" alt=""/></div>
+                <img src={Person} alt=""/></div>
             </div>
           </div>
         </div>
