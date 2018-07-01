@@ -20,7 +20,7 @@ export const HomePageTemplate = ({
       <title>{meta_title}</title>
       <meta name='description' content={meta_description}/>
     </Helmet>
-    <section className='hero is-primary is-bold homeHero'>
+    <section className='hero is-primary is-bold'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -36,7 +36,7 @@ export const HomePageTemplate = ({
               </div>
             </div>
             <div className='column is-6'>
-              <div className='section'>
+              <div className='section hero-image'>
                 <img src={Person} alt=""/></div>
             </div>
           </div>
