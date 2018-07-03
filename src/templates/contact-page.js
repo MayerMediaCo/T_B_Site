@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import ContactForm from '../components/ContactForm'
 import Contact from '../components/Contact'
 
-export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description}) => {
+export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description, contacts}) => {
   return (
     <div>
       <Helmet>
@@ -34,7 +35,7 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
           <div className='columns'>
             <div className='column is-6'>
               <div className='contact-form'>
-                <Contact/>
+                <ContactForm/>
               </div>
             </div>
             <div className='column is-6'>
@@ -45,6 +46,12 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='section'>
+        <div className='container'>
+          {contacts.map((contact, id) => <Contact key={id} email={contact.email} description={contact.description}/>)}
         </div>
       </section>
 
