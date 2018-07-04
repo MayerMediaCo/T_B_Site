@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import ContactForm from '../components/ContactForm'
 import Contact from '../components/Contact'
+import Map from '../components/Map'
 
 export const ContactPageTemplate = ({title, subtitle, meta_title, meta_description, contacts}) => {
   return (
@@ -39,10 +40,16 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
               </div>
             </div>
             <div className='column is-6'>
-              <div>
-                <h1>
-                  Google Map
-                </h1>
+              <div className='map-section'>
+                <div className='is-size-3 has-text-centered'>
+                  <h1>Find me here</h1>
+                </div>
+                <div className='map is-1by1'>
+                  <Map/>
+                </div>
+                <div>
+                  <p>Address: 1200 South York Road Suite 4240 Elmhurst, IL 60126</p>
+                </div>
               </div>
             </div>
           </div>
