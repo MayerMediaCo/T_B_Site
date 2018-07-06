@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Content, {HTMLContent} from '../components/Content'
+import Carousel from '../components/Carousel'
 
 export const ServicesPageTemplate = ({title, content, contentComponent}) => {
   const PageContent = contentComponent || Content
@@ -22,6 +23,9 @@ export const ServicesPageTemplate = ({title, content, contentComponent}) => {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <Carousel/>
       </section>
       <section className='section section--gradient'>
         <div className='container'>
