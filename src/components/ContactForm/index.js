@@ -20,20 +20,29 @@ const ContactForm = () => {
 
         <div className="field">
           <label className="label">Name</label>
-          <div className="control">
+          <div className="control has-icons-left">
             <input className="input" type="text" placeholder="Name"/>
+            <span className='icon is-small is-left'>
+              <i className='bx bx-user'></i>
+            </span>
           </div>
         </div>
         <div className="field">
           <label className="label">Email</label>
-          <div className="control">
+          <div className="control has-icons-left">
             <input className="input" type="email" placeholder="Email"/>
+            <span className='icon is-small is-left'>
+              <i className='bx bx-envelope'></i>
+            </span>
           </div>
         </div>
         <div classname="field">
           <label className="label">Phone</label>
-          <div className="control">
+          <div className="control has-icons-left">
             <input className="input" type="text" placeholder="(123)456-7890"/>
+            <span className='icon is-small is-left'>
+              <i className='bx bx-phone-call'></i>
+            </span>
           </div>
         </div>
         <div classname="field">

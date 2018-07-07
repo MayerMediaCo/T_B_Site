@@ -17,21 +17,25 @@ const Footer = () => {
             <p>Elmhurst, IL 60126
             </p>
             <p>Phone:
-              <a href='tel:+1-630-914-4305'>
+              <a className='is-link' href='tel:+1-630-914-4305'>
                 630-914-4305
               </a>
             </p>
           </div>
           <div className='column is-4'>
-            <div className='content has-text-centered'>
+            <div className='content footer-copyright has-text-centered'>
               <p>
                 {config.copyright}
               </p>
             </div>
           </div>
           <div className='column is-4'>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <h2 className='is-size-5 has-text-centered'>Follow Me on Social Media</h2>
+            <p className='footer-icons has-text-centered'>
+              <i className='bx bxl-linkedin-square'></i>
+              <i className='bx bxl-facebook-square'></i>
+              <i className='bx bxl-twitter-square'></i>
+              <i className='bx bxl-instagram'></i>
             </p>
           </div>
         </div>

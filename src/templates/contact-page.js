@@ -57,11 +57,27 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
       </section>
 
       <section className='section'>
+        <div className="container">
+          <div className='has-text-centered is-size-3'>
+            <h1>
+              Find me on Social Media</h1>
+          </div>
+          <div>
+            <p className='contact-icons has-text-centered'>
+              <i className='bx bxl-linkedin-square'></i>
+              <i className='bx bxl-facebook-square'></i>
+              <i className='bx bxl-twitter-square'></i>
+              <i className='bx bxl-instagram'></i>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className='section'>
         <div className='container'>
           {contacts.map((contact, id) => <Contact key={id} email={contact.email} description={contact.description}/>)}
         </div>
       </section>
-
     </div>
   )
 }

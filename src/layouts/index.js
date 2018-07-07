@@ -5,7 +5,8 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import './styles.sass'
 import config from '../../meta/config'
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import 'boxicons/css/boxicons.min.css'
 
 const TemplateWrapper = ({children}) => (
   <div>
