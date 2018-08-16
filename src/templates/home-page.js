@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
 
-import Person from '../img/person.jpg'
+import Theresa from '../img/Theresa1.jpg'
 
 export const HomePageTemplate = ({
   title,
@@ -37,7 +37,7 @@ export const HomePageTemplate = ({
             </div>
             <div className='column is-6'>
               <div className='section hero-image'>
-                <img src={Person} alt=""/></div>
+                <img src={Theresa} alt=""/></div>
             </div>
           </div>
         </div>

@@ -7,7 +7,11 @@ import Laptop from '../../img/laptop.jpg'
 
 const ServiceCarousel = () => {
   return (
-    <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
+    <Carousel
+      showThumbs={false}
+      autoPlay={true}
+      infiniteLoop={true}
+      dynamicHeight={true}>
       <div>
         <img src={Checklist}/>
         <p className="legend">Legend 1</p>
