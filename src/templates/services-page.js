@@ -24,9 +24,7 @@ export const ServicesPageTemplate = ({title, content, contentComponent}) => {
           </div>
         </div>
       </section>
-      <section>
-        <Carousel/>
-      </section>
+
       <section className='section section--gradient'>
         <div className='container'>
           <div className='columns'>
@@ -35,6 +33,13 @@ export const ServicesPageTemplate = ({title, content, contentComponent}) => {
                 <PageContent className='content' content={content}/>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <div className="column is-10 is-offset-1">
+            <Carousel/>
           </div>
         </div>
       </section>

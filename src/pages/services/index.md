@@ -37,5 +37,3 @@ mollis sed, nonummy id, metus.
 * In ac dui quis mi consectetuer lacinia.
 
 **Etiam ultricies nisi vel augue!**
-
-`video: https://www.youtube.com/embed/2Xc9gXyf2G4`

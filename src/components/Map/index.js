@@ -5,7 +5,7 @@ import Overlay from 'pigeon-overlay'
 
 const map = () => {
   return (
-    <Map defaultCenter={[41.931894, -87.939721]} zoom={17} width={700} height={500}>
+    <Map defaultCenter={[41.931894, -87.939721]} zoom={17} width={782} height={782}>
       <Marker
         anchor={[41.931894, -87.939721]}
         payload={1}

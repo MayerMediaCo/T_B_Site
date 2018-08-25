@@ -5,6 +5,7 @@ import Offerings from '../components/Offerings'
 import Testimonials from '../components/Testimonials'
 
 import Theresa from '../img/Theresa1.jpg'
+import oShot from '../img/oshot.png'
 
 export const HomePageTemplate = ({
   title,
@@ -43,9 +44,19 @@ export const HomePageTemplate = ({
         </div>
       </div>
     </section>
+
+    <section className="section">
+      <div className="container">
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            <img src={oShot}/>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section className='section section--gradient'>
       <div className='container'>
-
         <div className='section'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>

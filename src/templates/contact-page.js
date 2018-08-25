@@ -33,23 +33,28 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
 
       <section className='section'>
         <div className='container'>
-          <div className='columns'>
-            <div className='column is-6'>
-              <div className='contact-form'>
-                <ContactForm/>
-              </div>
+          <div className='column contact-form is-three-fifths is-offset-one-fifth'>
+            <div className='title is-size-3 has-text-centered'>
+              <h2>Reach out for more information or to book an appointment</h2>
             </div>
-            <div className='column is-6'>
-              <div className='map-section'>
-                <div className='is-size-3 has-text-centered'>
-                  <h1>Find me here</h1>
-                </div>
-                <div className='map is-1by1'>
-                  <Map/>
-                </div>
-                <div>
-                  <p>Address: 1200 South York Road Suite 4240 Elmhurst, IL 60126</p>
-                </div>
+            <div>
+              <ContactForm/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <div className='column is-three-fifths is-offset-one-fifth'>
+            <div className='map-section'>
+              <div className='title is-size-3 has-text-centered'>
+                <h2>Find me here</h2>
+              </div>
+              <div className='map'>
+                <Map/>
+              </div>
+              <div>
+                <p className='subtitle has-text-centered'>Address: 1200 South York Road Suite 4240 Elmhurst, IL 60126</p>
               </div>
             </div>
           </div>
@@ -58,9 +63,9 @@ export const ContactPageTemplate = ({title, subtitle, meta_title, meta_descripti
 
       <section className='section'>
         <div className="container">
-          <div className='has-text-centered is-size-3'>
-            <h1>
-              Find me on Social Media</h1>
+          <div className='title has-text-centered is-size-3'>
+            <h2>
+              Find me on Social Media</h2>
           </div>
           <div>
             <p className='contact-icons has-text-centered'>
