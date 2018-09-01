@@ -5,14 +5,14 @@ import Helmet from 'react-helmet'
 import PostCard from '../../components/PostCard'
 
 export default class BlogPage extends Component {
-  render () {
+  render() {
     const {data} = this.props
     const {edges: posts} = data.allMarkdownRemark
 
     return (
       <div>
         <Helmet>
-          <title>Blog | Gatsby Starter Business</title>
+          <title>Blog | Theresa Buckley</title>
         </Helmet>
         <section className='hero is-primary is-bold'>
           <div className='hero-body'>
@@ -21,7 +21,7 @@ export default class BlogPage extends Component {
                 <div className='column is-10 is-offset-1'>
                   <div className='section'>
                     <h1 className='title'>
-                                            Blog
+                      Blog
                     </h1>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ export default class BlogPage extends Component {
           </div>
         </section>
         <section className='section'>
-          <PostCard posts={posts} />
+          <PostCard posts={posts}/>
         </section>
       </div>
     )
@@ -39,18 +39,16 @@ export default class BlogPage extends Component {
 
 BlogPage.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+    allMarkdownRemark: PropTypes.shape({edges: PropTypes.array})
+  })
 }
 
-export const blogPageQuery = graphql`
+export const blogPageQuery = graphql `
   query BlogPage {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt
           id
           fields {
             slug

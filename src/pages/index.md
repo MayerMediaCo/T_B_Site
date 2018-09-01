@@ -9,52 +9,16 @@ offerings:
   blurbs:
     - image: /img/pexels-photo-905874.jpeg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+        The O Shot is an in office procedure that uses a centrifuge and special method, isolating platelet rich plasma (PRP) from your own blood. Then, using a very tiny needle, the PRP is injected back into the clitoris and upper vagina into the area most important for the sexual response, the O-spot.
     - image: /img/pexels-photo-905874.jpeg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+        The O Shot is an in office procedure that uses a centrifuge and special method, isolating platelet rich plasma (PRP) from your own blood. Then, using a very tiny needle, the PRP is injected back into the clitoris and upper vagina into the area most important for the sexual response, the O-spot.
     - image: /img/pexels-photo-905874.jpeg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+        The O Shot is an in office procedure that uses a centrifuge and special method, isolating platelet rich plasma (PRP) from your own blood. Then, using a very tiny needle, the PRP is injected back into the clitoris and upper vagina into the area most important for the sexual response, the O-spot.
     - image: /img/pexels-photo-905874.jpeg
       text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus 
-        sem a sem ultrices, eget sagittis magna tempor. Quisque pulvinar lorem 
-        molestie sapien ornare cursus. Praesent eget volutpat est. Proin at 
-        sagittis ex. Duis quis dui magna. Nullam urna purus, blandit vitae
-        tincidunt ut,  scelerisque eu sem. Etiam porttitor elit eget mi luctus,
-        vitae blandit enim pretium.  Aenean nec hendrerit leo, a bibendum magna.
-        In hac habitasse platea dictumst.  Suspendisse sapien magna, vestibulum
-        non vehicula id, pellentesque in ante. Nullam  sed auctor tellus. Sed
-        ipsum sem, dapibus nec eros in, feugiat sagittis mi.  Nullam et dui
-        interdum, varius nibh eu, efficitur metus.
+        The O Shot is an in office procedure that uses a centrifuge and special method, isolating platelet rich plasma (PRP) from your own blood. Then, using a very tiny needle, the PRP is injected back into the clitoris and upper vagina into the area most important for the sexual response, the O-spot.
 testimonials:
   - author: Jane Doe
     quote: >-
