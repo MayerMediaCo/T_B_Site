@@ -23,9 +23,9 @@ const PostCard = ({posts}) => {
               </span>
               <small>{post.frontmatter.date}</small>
             </p>
-            <p>
+            <div>
               {post.cover}
-            </p>
+            </div>
             <p>
               {post.excerpt}
               <br/>
